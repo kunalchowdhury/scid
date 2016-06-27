@@ -109,7 +109,7 @@ bool avr_uart_sender_receiver::validate_message()
 	memset(_int_buf, 0, UART_SENDER_BUFFER_SZ * sizeof(uint8_t));
 	
 	while(_receive_circular_buffer[_read_idx] != 0x7E 
-	| _receive_circular_buffer[_read_idx] != 0x7F)
+	|| _receive_circular_buffer[_read_idx] != 0x7F)
 	{
 	        circular_inc();	
 	}
@@ -159,8 +159,8 @@ bool avr_uart_sender_receiver::validate_message()
 	        break;
 		
 		
-		return true;
+		
 	}
-	
+	return true;
 }
 

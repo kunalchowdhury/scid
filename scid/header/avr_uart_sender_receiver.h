@@ -34,7 +34,7 @@ private:
 	avr_uart_sender_receiver( const avr_uart_sender_receiver &c );
 	avr_uart_sender_receiver& operator=( const avr_uart_sender_receiver &c );
 
-    void validate_message();
+    bool validate_message();
 	void circular_inc();
     LCDDisplay _lcd_display;
 

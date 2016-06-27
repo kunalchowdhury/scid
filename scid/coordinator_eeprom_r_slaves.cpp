@@ -54,10 +54,10 @@ int main_19(void)
 	//uint8_t start = 0x60 ;
 	//display->print("MANU Bday ON");
 	//display->gotoxy(1, 2);
-	uint8_t d1 = eeprom_read_byte((uint8_t *)0);//read_eeprom(start++);
-	uint8_t d2 = eeprom_read_byte((uint8_t *)1);
-	uint8_t d3 = eeprom_read_byte((uint8_t *)2);
-	uint8_t d4 = eeprom_read_byte((uint8_t *)3);
+	  //uint8_t d1 = eeprom_read_byte((uint8_t *)0);//read_eeprom(start++);
+	  //uint8_t d2 = eeprom_read_byte((uint8_t *)1);
+	  //uint8_t d3 = eeprom_read_byte((uint8_t *)2);
+	  //uint8_t d4 = eeprom_read_byte((uint8_t *)3);
 	//uint8_t y = 1;
 	//display->print_num(d1, 16);
 	//display->print("-");
